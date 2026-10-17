@@ -1,10 +1,10 @@
-coder = ["Beginner"]
-if coder == "Expert":
-    print("good")
-elif coder == "senior expert":
-    print("Very Good")
-else:
-    print("Join Github Make Friends, Join Python Community, Join Coders Community")
-    
+pets = ["dog" , "cat" , "monkey" , "cat" , "elephant"]
+counts ={}
 
+for x in pets:
+    if x in counts:
+        counts[x]  = counts[x] + 1
+    else:
+        counts[x] = 1
+print(counts)
 
