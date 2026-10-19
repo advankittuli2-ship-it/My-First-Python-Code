@@ -1,12 +1,12 @@
-ram_list = ["Ram" , "RAM" , "ram" , "ayaram" , "gayaram" , "heyram" , "kuonram", "goram"]
+sita_list = ["Sita" , "sita" , "SITA" , "Sitaram" , "RamSita" , "Shyam" , "Ram"]
 
-def count_ram_in_list(my_list):
-    count_ram = 0
-    for x in my_list:
-        if "ram" in x.lower():
-            count_ram = count_ram + 1
-    return count_ram
-result = count_ram_in_list(ram_list)
+def count_sita_in_list (sita_list):
+    count_sita = 0
+    for x in sita_list:
+        if "sita" in x.lower():
+            count_sita = count_sita + 1
+    return count_sita
+result = count_sita_in_list(sita_list)
 print(result)
 
 
