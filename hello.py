@@ -1,13 +1,5 @@
-ramayana = ["sita" , "sIta" , "ramsita" , "shyam" , "ram ", "sita"]
+#append - adding your count to file
+count = {"sita : 3" , "ram: 1"}
 
-def count_all(names):
-    count = {}
-    for x in names:
-        name = x.lower().strip()
-        if name in count:
-            count[name] = count[name] + 1
-        else:
-            count[name] = 1
-    return count
-
-print(count_all(ramayana))
+with open("ramayana.txt" , "a") as file:
+    file.write(str(count))
