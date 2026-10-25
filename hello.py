@@ -1,11 +1,32 @@
-ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita"]
+ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita", "ram" , "ram" , "ram" ]
 
-def most_counts(names):
+def count_all(names):
     count = {}
     for x in names:
         name = x.lower().strip()
-        count[name] = count.get(name, 0) + 1
+        if name in count:
+            count[name] = count[name] + 1
+        else:
+            count[name] = 1
     return count
-print(most_counts(ramayana))
-        
+
+def show_counts(counts):
+    for name in counts:
+        print(name , ":" , counts[name])
+
+def most_common(counts):
+    best_name = " "
+    best_count = 0
+    for name in counts:
+        if counts[name] > best_count:
+            best_name = name
+            best_count = counts[name]
+    return best_name
+
+result = count_all(ramayana)
+show_counts(result)
+print(most_common(result))
+
+
+
 
