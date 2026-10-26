@@ -1,3 +1,4 @@
+# complete dictionary code practice 
 ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita", "ram" , "ram" , "ram" ]
 
 def count_all(names):
@@ -26,6 +27,12 @@ def most_common(counts):
 result = count_all(ramayana)
 show_counts(result)
 print(most_common(result))
+
+with open("hello.py" , "r") as src_file:
+    full_code = src_file.read()
+with open("File Handling" , "w") as file:
+    file.write(full_code + "\n\nresult =" + str (result))
+
 
 
 
