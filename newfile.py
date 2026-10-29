@@ -1,6 +1,5 @@
-ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita", "ram" , "ram" , "ram" ]
-
-for n in ramayana:
-    print(n.title())
-    print(n.lower())
-    print(n.upper())
+first_name = "Manoj"
+last_name = "Sharma"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+print(f"hello , {full_name}!")
