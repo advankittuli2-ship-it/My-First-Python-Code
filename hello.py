@@ -1,8 +1,3 @@
-name = ("virat kohli")
-print(name.title())
-
-name = ("Virat KoHli")
-print(name.lower())
-
-name = ("virat kohli")
-print(name.upper())
+ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita", "ram" , "ram" , "ram" ]
+formatted = [f"{n.title()}"  for n in ramayana]
+print(formatted)
