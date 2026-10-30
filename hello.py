@@ -1,3 +1,5 @@
 ramayana = ["sita" , "sIta" ,"ramsita" , "shyam" , "ram" , "sita", "ram" , "ram" , "ram" ]
-formatted = [f"{n.title()}"  for n in ramayana]
-print(formatted)
+new_list = []
+for n in ramayana:
+    new_list.append(f"{n.title()}:counted")
+print(new_list)
