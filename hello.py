@@ -1,3 +1,3 @@
-text = "fir judge advocate"
-my_list = text.split()
-print(my_list)
+text = "fir    judge advocate"
+print(text.split( ))
+print(text.split(" "))
