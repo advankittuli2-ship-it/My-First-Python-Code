@@ -1,1 +1,5 @@
-print("\t\tpython\nterminal\thouse\nnew\t\t1234")
+text = "  Ram  "
+print(text)
+print(text.strip())
+print(len(text))
+print(len(text.strip()))
