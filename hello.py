@@ -1,12 +1,14 @@
-food_item = input("enter food item name:")
+food_item = input("enter food item name:").strip().lower()
+
+
+food_items_dict = {
+    "burger" : 100, 
+    "pizza" : 200, 
+    "juice" : 50, 
+    "golgappe" : 50}
 
 def getprice(food_item):
-    if food_item == "burger":
-        return 250
-    elif food_item == "pizza":
-        return 550
-    elif food_item == "juice":
-        return 10
+    return food_items_dict.get(food_item, 0)
         
 
 print(getprice(food_item))
