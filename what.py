@@ -1,7 +1,8 @@
-cars = ["maruti" , "toyoya" , "skoda"]
-cars[1] = "bmw"
-cars[0] = "ferrari"
-cars.append("atlas cycle")
-del cars[1]
-cars.append("maruti")
+cars = [ ]
+cars.append("ducati")
+cars.append("ferarri")
+cars.append("bmw")
+cars.append("range rover")
+cars.append("enteem")
+cars.append("bolero")
 print(cars)
