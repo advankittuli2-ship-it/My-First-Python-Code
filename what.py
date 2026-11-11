@@ -1,5 +1,2 @@
-cars = ["maruti" , "honda" , "tata", "sumo"]
-affordable = ["maruti"]
-cars.remove("maruti")
-print(cars)
-print(f"\n\t\n\t\n I like {affordable}")
+invitation = ["mohan", "samir" , "lokesh"]
+print(f"Dear, \n {invitation[0]} you are cordially invited for tea party today evening. \n {invitation[1]} you are cordially invited for tea party today evening, \n {invitation[2]} you are cordially invited for tea party today evening  ")
