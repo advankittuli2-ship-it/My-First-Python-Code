@@ -1,10 +1,3 @@
-cars = [ ]
-cars.append("ducati")
-cars.append("ferarri")
-cars.append("bmw")
-cars.append("range rover")
-cars.append("enteem")
-cars.append("bolero")
-cars.insert(0, "maruti")
-cars.insert(3, "tata sumo")
-print(cars)
+cars = ["maruti" , "santro" , "esteem" , "tata sumo"]
+first_owned = cars.pop(1)
+print(f" my first car was {first_owned.upper()}")
