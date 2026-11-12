@@ -1,3 +1,13 @@
-invitation = ["mohan", "samir" , "lokesh"]
-invitation.pop(0)
-print(f" Dear, \n {invitation[0]} please come for today's tea party in eveining. \n {invitation[1]} please come for today's tea party in eveining. ")     
+numbers = [52, 85, 45, 67, 16, 73, 98, 218, 789, 6]
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+print(len(numbers))
+print(sorted(numbers, reverse=True))
+print(numbers.sort(reverse=True))
+print(numbers)
+sorted(numbers)
+print(numbers)
+sorted(numbers)
+print(numbers)
