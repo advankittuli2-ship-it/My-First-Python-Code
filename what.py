@@ -1,13 +1,2 @@
-numbers = [52, 85, 45, 67, 16, 73, 98, 218, 789, 6]
-numbers.sort()
-print(numbers)
-numbers.reverse()
-print(numbers)
-print(len(numbers))
-print(sorted(numbers, reverse=True))
-print(numbers.sort(reverse=True))
-print(numbers)
-sorted(numbers)
-print(numbers)
-sorted(numbers)
-print(numbers)
+states = ["delhi" , "up", "hp"]
+print(len(states))
