@@ -1,2 +1,3 @@
-states = ["delhi" , "up", "hp"]
-print(len(states))
+males = ["sohan" , "mohan" , "rohan"]
+for x in males: 
+    print(x)
