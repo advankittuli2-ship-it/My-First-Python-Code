@@ -1,3 +1,4 @@
-ramayana = ["ram" , "ravan" , "sita" , "hanuman" , "kaveri" , "ganga" , "vibhishan"]
-print(ramayana[1:5])
-print(ramayana[0:7:2])
+fruits = ["mango" , "banana" , "apple" , "lichi" , "guava"]
+print("Children like fruits which are as follows:")
+for num in fruits[0:]:
+    print(num.upper())
