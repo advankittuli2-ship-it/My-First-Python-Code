@@ -1,11 +1,13 @@
-liked_food = ['banana' , 'ice cream' , 'kaju']
-good_food = liked_food[:]
+my_pizzas = [ "onion" , "chicken" , "mutton"]
+her_pizzas = my_pizzas[:]
 
-good_food.append("chicken")
-liked_food.append("mutton")
+my_pizzas.append("spicy fried eggs")
+her_pizzas.append("satvik")
 
-print("I like to eat food, which are as follows:")
-print(good_food)
+for num in my_pizzas:
+    print(num)
 
-print("\nGood Food for me to eat are as follows:")
-print(liked_food)
+for num in her_pizzas:
+    print(num)
+
+
