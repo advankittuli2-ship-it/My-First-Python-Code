@@ -1,13 +1,5 @@
-my_pizzas = [ "onion" , "chicken" , "mutton"]
-her_pizzas = my_pizzas[:]
-
-my_pizzas.append("spicy fried eggs")
-her_pizzas.append("satvik")
-
-for num in my_pizzas:
-    print(num)
-
-for num in her_pizzas:
-    print(num)
+# Tuple
+fruits = ( "mango" , "apple" , "orange" , "kiwi")
+print(fruits[0] , fruits[1] , fruits[2] , fruits[3] )
 
 
