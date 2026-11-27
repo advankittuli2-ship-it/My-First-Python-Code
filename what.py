@@ -1,5 +1,6 @@
-# Tuple
+# Looping through all values in a Tuple
 fruits = ( "mango" , "apple" , "orange" , "kiwi")
-print(fruits[0] , fruits[1] , fruits[2] , fruits[3] )
+for num in fruits: 
+    print(num)
 
 
